@@ -9,7 +9,7 @@
 - "train/subject_train.txt": numeric
 - "test/X_test.txt": numeric
 - "test/Y_test.txt": numeric
-- "test/subject_test.txt": numeric
+- "test/subject_test.txt": numeric  
 
 - "features.txt": feature names
 - "activity_labels.txt": activity names
@@ -95,8 +95,8 @@
 
 Numeric data:
 
-- Row Bind X_train.txt and X_test.txt  
-- Row Bind Y_train.txt and Y_test.txt  
+- Row Bind X_train.txt and X_test.txt
+- Row Bind Y_train.txt and Y_test.txt
 - Row Bind subject_train.txt and subject_test.txt  
 
 - Col Bind the above
@@ -104,7 +104,7 @@ Numeric data:
 Character data:
 
 - Extract features "mean" and "std" from features.txt and populate X data
-- Extract activities from activity_labels.txt and populate Y data  
+- Extract activities from activity_labels.txt and populate Y data
 
 Calculations:
 
